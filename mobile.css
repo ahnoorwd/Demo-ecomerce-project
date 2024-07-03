@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.navlogo img{
+    width: 150px;
+   
+    /* border:1px solid white;
+    border-radius: 50px; */
+    
+}
+.navmenu a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-size: 1.5rem;
+    line-height: 70px;
+    padding: 0 20px;
+}
+.navmenu a:hover{
+    background-color: gray;
+    border-radius: 50px;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+/* for mobile */
+[class*="col-"]
+{
+    width: 100%;
+}
+.navbar{
+    background-color:#24a19c;
+    padding: 1% 7%;
+    text-align: center;
+    color: white;
+}
+.navmenu{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+.navbar::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+/* banner-section stars here */
+#banner-section{
+    background-image: url("section.avif") ;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+}
+.banner-container{
+    padding: 50px 10px;
+    text-align: center;
+}
+.banner-container h1{
+    width: 100%;
+    margin: 15px auto;
+    font-size: 3rem;
+    background: rgba(255,255,0,0.884);
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'handle',cursive;
+}
+.banner-container p{
+    width: 300px;
+    margin: 15px auto;
+    background: green;
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+
+}
+.btn{
+    border: none;
+    background-color:green;
+    font-size: 1.3rem;
+    padding: 5px;
+    border-radius: 10px;
+    color:white;
+   transition:.4s;
+}
+.btn:hover{
+   transform: scale(1.2);
+   color:yellow;
+}
+
+
+
+
+
+
+/* banner-section ends here */
+/* paragraph grapg section starts here  */
+
+#about-us{
+    padding: 1%px;
+   
+    background-color:cadetblue;
+    padding: 10px;
+   
+}
+.paragrapg{
+    font-size: 1rem;
+    text-align: center;
+    
+ 
+}
+.paragrapg h2{
+    font-size: 2rem;
+    font-weight: bold;
+   
+    margin-bottom: 10px; 
+ 
+}
+.paragrapg p{
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 10px;
+   
+ 
+}
+/* menu section design stars here */
+#menu{
+    padding: 10px;
+    margin-top: -19px;
+   
+     
+}
+
+.card-body img{
+    width: 100%;
+    height:300px ;
+    display: block;
+ 
+  
+    
+
+}
+.about-item{
+    background-color: rgb(165,164,164);
+    text-align: center;
+    text-transform: uppercase;
+    color:black;
+    font-size:1rem;
+    padding:10px;
+
+    
+}
+.salad{
+    background-color:green;
+    padding: 20px;
+    margin-top:-10px;
+    color: whitesmoke;
+    border: none;
+}
+.salad:hover{
+   
+    color: gold;
+    border-radius: 50PX;
+    
+   
+}
+.card{
+    transition: 0.4s;
+    
+   
+}
+.card:hover{
+    transform: scale(1.0);
+}
+
+
+
+
+/* menu section design ends here */
+
+/* mapping style starts here*/
+
+#map-details {
+   
+    padding-left: 3%;
+   
+}
+.maplink{
+    background-color: blueviolet;
+    margin-top: -8px;
+   
+   
+}
+.description{
+    background-color: blueviolet;
+    margin-top: -8px;
+    color: white;
+}
+/* mapping style starts here*/
